@@ -105,7 +105,7 @@ export const TestPage = () => {
             Маловато слів для тесту{')'}
           </h3>
           <h4 className="test-page__message-info">
-            {`Ще хоча б ${10 - words.length} слів`}
+            {`Ще хоча б ${10 - words.length} ${words.length < 9 ? 'слів' : 'слово'}`}
           </h4>
         </>
         

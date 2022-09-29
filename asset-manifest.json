@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jetup_tech-test/static/css/main.e7ce4c56.css",
-    "main.js": "/jetup_tech-test/static/js/main.5fa19323.js",
+    "main.js": "/jetup_tech-test/static/js/main.5730b236.js",
     "static/media/home-svgrepo-com.svg": "/jetup_tech-test/static/media/home-svgrepo-com.155f7383687aa4546f81.svg",
     "index.html": "/jetup_tech-test/index.html",
     "main.e7ce4c56.css.map": "/jetup_tech-test/static/css/main.e7ce4c56.css.map",
-    "main.5fa19323.js.map": "/jetup_tech-test/static/js/main.5fa19323.js.map"
+    "main.5730b236.js.map": "/jetup_tech-test/static/js/main.5730b236.js.map"
   },
   "entrypoints": [
     "static/css/main.e7ce4c56.css",
-    "static/js/main.5fa19323.js"
+    "static/js/main.5730b236.js"
   ]
 }

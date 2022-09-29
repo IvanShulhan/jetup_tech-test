@@ -6,7 +6,7 @@ const state: Words[] = [];
 export interface Words {
   id: number;
   word: string;
-  translations: string;
+  translation: string;
 }
 
 export interface WordsState {

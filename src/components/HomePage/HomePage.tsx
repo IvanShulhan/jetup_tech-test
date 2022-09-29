@@ -15,7 +15,7 @@ export const HomePage = () => {
         {words.length ? (words.map((word) => (
           <li className="home-page__words-item" key={word.id}>
             <span className="home-page__word">{word.word}</span>
-            <span className="home-page__word">{word.translations}</span>
+            <span className="home-page__word">{word.translation}</span>
           </li>
         ))) : (
             <h3 className="message home-page__message">

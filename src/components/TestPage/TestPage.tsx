@@ -65,7 +65,7 @@ export const TestPage = () => {
           {count < 10 ? (
             <>
               <div className="test-page__word">
-                {randomWords[count].translations}
+                {randomWords[count].word}
               </div>
               <ul className="test-page__variants">
                 {getRandomAnswers().map((word) => (
@@ -77,7 +77,7 @@ export const TestPage = () => {
                         chooseAnswer(word.id, randomWords[count].id)
                       }}
                     >
-                      {word.word}
+                      {word.translation}
                     </button>
                   </li>
                 ))}

@@ -47,8 +47,8 @@ export const AddWord = () => {
 
       dispatch(addWords({
         id,
-        word: formData.ukr.trim(),
-        translations: formData.eng.trim()
+        word: formData.eng.trim(),
+        translation: formData.ukr.trim()
       }))
 
       setFormData(clearFormData);
